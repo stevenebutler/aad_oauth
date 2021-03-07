@@ -1,4 +1,4 @@
-import 'package:aad_oauth/aad_oauth.dart';
+/*import 'package:aad_oauth/aad_oauth.dart';
 import 'package:aad_oauth/model/config.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  static final Config config = Config(
+  static final AadConfig config = AadConfig(
     tenant: 'YOUR_TENANT_ID',
     clientId: 'YOUR_CLIENT_ID',
     scope: 'openid profile offline_access',
@@ -103,3 +103,4 @@ class _MyHomePageState extends State<MyHomePage> {
     showMessage('Logged out');
   }
 }
+*/
